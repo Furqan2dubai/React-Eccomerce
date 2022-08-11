@@ -1,0 +1,29 @@
+ 
+
+.addtocart {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.detail{
+  height: 20px; 
+}
+.title{
+  cursor: pointer;
+}
+.detail, .title{ 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+li.nav-item.active {
+  border-bottom: solid 1px red;
+}
+ 
